@@ -21,3 +21,5 @@ Users are able to:
 | Path | HTTP Verb | Action |
 |--|--|--|
 | houses | GET | index houses |
+| houses/addresses | GET | index houses |
+| houses/owners | GET | index houses |
