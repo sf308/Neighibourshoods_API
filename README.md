@@ -17,7 +17,6 @@ Users are able to:
 ```docker run --name neighbourhood-db --mount type=bind,source="$(pwd)",dst="//code" -d mongo```
 3. This App should handle GET, POST and DELETE REQUESTS
 4. The various HTTP routes are listed below:
-
 | Path | HTTP Verb | Action |
 |--|--|--|
 | houses | GET | index houses |
@@ -25,3 +24,6 @@ Users are able to:
 | houses/owners | GET | index owners |
 | houses/addresses/postcode | GET | show postcode |
 | houses/addresses/street | GET | show street line |
+| houses/owners/age | GET | show age |
+| houses/owners/name | GET | show name |
+| houses/owners/number | GET | show number |
