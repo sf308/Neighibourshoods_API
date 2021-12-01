@@ -20,19 +20,3 @@ Users are able to:
 | Path | HTTP Verb | Action |
 |--|--|--|
 |  |  |  |
-| houses     | GET | index houses|
-| houses/addresses     | GET	|	index	addresses|
-| houses/owner | GET      |    index	owners|
-| houses/addresses/Postcode | GET	|	show postcodes|
-| houses/addresses/Street | GET	|	show streets|
-| houses/owner/age | GET      | show age|
-| houses/owner/name | GET     | show name|
-| houses/owner/number | GET     |show house number|
-| houses     | POST | create house|
-| houses/addresses     | POST	|   create address|
-| houses/owner | POST	|    create owner|
-| houses/addresses/Postcode | DELETE	|	delete postcodes|
-| houses/addresses/Street | DELETE	|	delete streets|
-| houses/owner/age | DELETE      | delete age|
-| houses/owner/name | DELETE     | delete name|
-| houses/owner/number | DELETE    |delete house number|
