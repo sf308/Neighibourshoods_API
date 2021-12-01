@@ -23,3 +23,5 @@ Users are able to:
 | houses | GET | index houses |
 | houses/addresses | GET | index houses |
 | houses/owners | GET | index houses |
+| houses/addresses/postcode | GET | index houses |
+| houses/addresses/street | GET | index houses |
