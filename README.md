@@ -21,7 +21,7 @@ Users are able to:
 | Path | HTTP Verb | Action |
 |--|--|--|
 | houses | GET | index houses |
-| houses/addresses | GET | index houses |
-| houses/owners | GET | index houses |
-| houses/addresses/postcode | GET | index houses |
-| houses/addresses/street | GET | index houses |
+| houses/addresses | GET | index addresses |
+| houses/owners | GET | index owners |
+| houses/addresses/postcode | GET | show postcode |
+| houses/addresses/street | GET | show street line |
